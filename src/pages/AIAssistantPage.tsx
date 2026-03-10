@@ -2,7 +2,6 @@ import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Bot, Send, User, Loader2 } from "lucide-react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-console.log("GEMINI KEY:", import.meta.env.VITE_GEMINI_API_KEY);
 
 interface Message {
   role: "user" | "assistant";
